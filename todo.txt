@@ -1,0 +1,12 @@
+
+
+tootl tip
+pop up model
+react toast
+login
+sign up
+admin
+(history,order)
+user order history
+payout
+user order tracking page
