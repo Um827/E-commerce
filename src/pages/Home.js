@@ -29,7 +29,7 @@ const SliderContent1 = () => {
 const SliderContent2 = () => {
   return (
     <div className="container mx-auto text-center flex items-center">
-      <div className="w-1/2 ">
+      <div className="w-1/2 z-20 ">
         <img className="w-3/5 mx-auto" src="/images/Large_pizza.jpg"/>
       </div>
       <div className="w-1/2 text-end pr-[62px]">
@@ -53,7 +53,7 @@ const Slider = () => {
     <>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-          <SliderContent1 />{" "}
+          <SliderContent1 />
         </SwiperSlide>
         <SwiperSlide><SliderContent2 /></SwiperSlide>
         <SwiperSlide><SliderContent1 /></SwiperSlide>
@@ -82,25 +82,3 @@ const Home = () => {
 
 export default Home;
 
-// <>
-// <div className="hero md:py-16 py-[150px]">
-
-//     <div className="container mx-auto flex items-center">
-//         <div className="w-1/2">
-//             <h6 className="text-lg"><em>Are you hungry?</em></h6>
-//             <h1 className="text-3xl md:text-6xl font-bold">Don't wait!</h1>
-//             <button className="px-6 py-2 rounded-full text-white font-bold mt-4 bg-yellow-500 hover:bg-yellow-600">Order Now</button>
-//         </div>
-//         <div className="w-1/2">
-//             <Slider/>
-//             <img className="w-4/5" src="/images/Large_pizza.jpg"></img>
-//         </div>
-//     </div>
-// </div>
-// <div>
-//     <Products />
-// </div>
-// </>
-//tootl tip
-// pop up model
-//----react toast

@@ -1,18 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import NormalNavigation from './NormalNavigation'
-import { useContext } from 'react'
-import { CartContext } from '../CartContext'
 const Navigation = () => {
-
-    const cartStyle = {
-        background: '#F59E0D',
-        display: 'flex',
-        padding: '6px 12px',
-        borderRadius: '50px',
-       
-    }
-    const {cart} =useContext(CartContext)
     const [open, setOpen] = useState(false);
 
     return (
@@ -37,7 +26,6 @@ const Navigation = () => {
 
             </div>
 
-            {/* <MobileNavigation/> */}
         </nav>
 
     )

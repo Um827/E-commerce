@@ -3,6 +3,7 @@
 tootl tip
 pop up model
 react toast
+redux
 login
 sign up
 admin
